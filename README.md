@@ -45,7 +45,7 @@ Create an IPython kernel for the drlnd environment.
 
 Before running code in a notebook, change the kernel to match the drlnd environment by using the drop-down Kernel menu.
 
-![Jupyter Kernel](/images/jupyter_kernel.png)
+![Jupyter Kernel](jupyter_kernel.png)
 
 ### Approach
 
