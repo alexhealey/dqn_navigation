@@ -1,5 +1,6 @@
 # p1_dqn_navigation
-An implementation of DQN to solve the OpenAI Gym Navigation environment
+
+An implementation of DQN to solve the Unity Machine Learning Agents Toolkit Navigation environment. 
 
 ### Introduction
 
@@ -17,6 +18,18 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 
 The task is episodic, and in order to solve the environment, your agent must get an average score of +13 over 100 consecutive episodes.
 
+### Installation
+
 ### Approach
 
 The implementation approach is based on DQN. The code provides a number of DQN extensions: Double DQN, N-step DQN and Priorized Experience Replay. We compare the convergence of these different approaches.
+
+### Code
+
+We break down the code into a number of different modules. 
+
+#### buffer.py
+
+This contains the replay buffer code. The buffer can can either provide for random samples or prioritized samples. If using priorities then we specify a non zero alpha value.
+
+
