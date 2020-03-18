@@ -4,7 +4,7 @@ An implementation of DQN to solve the Unity Machine Learning Agents Toolkit Navi
 
 ### Introduction
 
-For this project, you will train an agent to navigate (and collect bananas!) in a large, square world.  
+For this project we will train an agent to navigate (and collect bananas!) in a large, square world.  
 
 ![Trained Agent][image1]
 
@@ -22,20 +22,20 @@ The task is episodic, and in order to solve the environment, your agent must get
 
 To set up your python environment to run the code in this repository, follow the instructions below.
 
-    Create (and activate) a new environment with Python 3.6.
-        Linux or Mac:
+Create (and activate) a new environment with Python 3.6.
+Linux or Mac:
 
     conda create --name drlnd python=3.6
     source activate drlnd
 
-        Windows:
+Windows:
 
     conda create --name drlnd python=3.6 
     activate drlnd
 
-    Follow the instructions in this repository to perform a minimal install of OpenAI gym.
+Follow the instructions in this repository https://github.com/openai/gym to perform a minimal install of OpenAI gym.
 
-    Clone this repository (if you haven't already!) then, install several dependencies.
+Clone this repository  (if you haven't already!) then, install several dependencies.
 
 pip install .
 
