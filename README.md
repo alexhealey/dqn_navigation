@@ -37,15 +37,15 @@ Follow the instructions in this repository https://github.com/openai/gym to perf
 
 Clone this repository  (if you haven't already!) then, install several dependencies.
 
-pip install .
+    pip install -r requirements.txt
 
-    Create an IPython kernel for the drlnd environment.
+Create an IPython kernel for the drlnd environment.
 
-python -m ipykernel install --user --name drlnd --display-name "drlnd"
+    python -m ipykernel install --user --name drlnd --display-name "drlnd"
 
-    Before running code in a notebook, change the kernel to match the drlnd environment by using the drop-down Kernel menu.
+Before running code in a notebook, change the kernel to match the drlnd environment by using the drop-down Kernel menu.
 
-Kernel
+![Jupyter Kernel](/images/jupyter_kernel.png)
 
 ### Approach
 
