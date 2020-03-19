@@ -2,7 +2,7 @@
 
 An implementation of DQN to solve the Unity Machine Learning Agents Toolkit Navigation environment. 
 
-### Introduction
+## Introduction
 
 For this project we will train an agent to navigate (and collect bananas!) in a large, square world.  
 
@@ -18,7 +18,7 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 
 The task is episodic, and in order to solve the environment, your agent must get an average score of +13 over 100 consecutive episodes.
 
-### Installation
+## Installation
 
 To set up your python environment to run the code in this repository, follow the instructions below.
 
@@ -47,16 +47,33 @@ Before running code in a notebook, change the kernel to match the drlnd environm
 
 ![Jupyter Kernel](jupyter_kernel.png)
 
-### Approach
+## Approach
 
 The implementation approach is based on DQN. The code provides a number of DQN extensions: Double DQN, N-step DQN and Priorized Experience Replay. We compare the convergence of these different approaches.
 
-### Code
+## Code
 
 We break down the code into a number of different modules. 
 
-#### buffer.py
+### buffer.py
 
 This contains the replay buffer code. The buffer can can either provide for random samples or prioritized samples. If using priorities then we specify a non zero alpha value.
+
+### model.py
+
+This contains the neural network used to run a function approximation for the state / action value function. The network uses three fully connected layers. The sizes of the layers are
+
+| Layer   |      Parameter Name      |  Value |
+|---------|-------------|------:|
+|1|fc1_units| 64 |
+|2|fc2_units| 64 |
+|3|action_size| 4 |
+
+### experience.py
+ 
+This contains the experience generator which can generate Experience named tuples used by the agent to learn. The FirstAndLastExperienceSource class is capable of generating N step Experiences where the next_state in the Experience corresponds to the state N steps after the starting state and the reward includes all rewards earned in those N steps (discounted by gamma).
+
+### agent.py
+
 
 
