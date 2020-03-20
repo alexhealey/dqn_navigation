@@ -1,4 +1,4 @@
-![$a^2 + b^2 = c^2$](https://render.githubusercontent.com/render/math?math=%24a%5E2%20%2B%20b%5E2%20%3D%20c%5E2%24)
+
 
 
 # p1_dqn_navigation
@@ -62,7 +62,7 @@ We break down the code into a number of different modules.
 
 This contains the replay buffer code. The buffer can can either provide for random samples or prioritized samples. If using priorities then we specify a non zero alpha value.
 
-\\[ a^2 = b^2 + c^2 \\].
+![$a^2 + b^2 = c^2$](https://render.githubusercontent.com/render/math?math=%24a%5E2%20%2B%20b%5E2%20%3D%20c%5E2%24)
 
 ### model.py
 
