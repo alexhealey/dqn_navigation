@@ -54,8 +54,8 @@ Before running code in a notebook, change the kernel to match the drlnd environm
 
 The implementation approach is based on DQN. The code provides a number of DQN extensions: Double DQN, N-step DQN and Priorized Experience Replay. We compare the convergence of these different approaches.
 
-### Running 
+## Running 
 
-In order to use the project open the Jupyter notebook `Navigation.ipynb`. This notebook contains further details of the environment and the agents training.
+In order to use the project open the Jupyter notebook `Navigation.ipynb`. This notebook contains further details of the environment, agents and training.
 
 
