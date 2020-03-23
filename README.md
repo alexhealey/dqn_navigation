@@ -1,7 +1,7 @@
 
 
 
-# p1_dqn_navigation
+# dqn_navigation
 
 An implementation of DQN to solve the Unity Machine Learning Agents Toolkit Navigation environment. 
 
