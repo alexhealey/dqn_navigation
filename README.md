@@ -56,6 +56,6 @@ The implementation approach is based on DQN. The code provides a number of DQN e
 
 ## Running 
 
-In order to use the project open the Jupyter notebook `Navigation.ipynb`. This notebook contains further details of the environment, agents and training.
+In order to use the project open the Jupyter notebook `Report.ipynb`. This notebook contains further details of the environment, agents and training.
 
 
