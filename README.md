@@ -50,6 +50,14 @@ Before running code in a notebook, change the kernel to match the drlnd environm
 
 ![Jupyter Kernel](jupyter_kernel.png)
 
+You will also need to download the environment file and unzip it in the project root directory. The environments are (by platform)
+
+* [Linux](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
+* [Mac](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip)
+* [Windows 32bit](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)
+* [Windows 64bit](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
+
+
 ## Approach
 
 The implementation approach is based on DQN. The code provides a number of DQN extensions: Double DQN, N-step DQN and Priorized Experience Replay. We compare the convergence of these different approaches.
